@@ -23,3 +23,15 @@ htmlcov/
 
 # Security
 .env
+
+# AI tool / dev artifacts
+**/.claude/
+**/.codex/
+**/.mcp.json
+**/.agents/
+**/.beads/
+**/.style/
+**/.specify/**
+!**/.specify/memory/
+!**/.specify/memory/**
+.playwright-mcp/
